@@ -6,8 +6,8 @@ public class SingleThread {
 		t.setName("SingleThread");
 		System.out.println(t.getName());
 		try {
-			for(int i = 0; i < 5; i++){
-				System.out.println("Sleep Time:" +i);
+			for (int i = 0; i < 5; i++) {
+				System.out.println("Sleep Time:" + i);
 				Thread.sleep(300);
 			}
 		} catch (InterruptedException e) {
