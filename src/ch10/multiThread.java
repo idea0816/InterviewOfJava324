@@ -3,8 +3,8 @@ package ch10;
 public class multiThread {
 	public static void main(String[] args) {
 		ThreadSubName t1 = new ThreadSubName("Thread 1", 200);
-		ThreadSubName t2 = new ThreadSubName("Thread 2", 500);
-		ThreadSubName t3 = new ThreadSubName("Thread 3", 100);
+		ThreadSubName t2 = new ThreadSubName("Thread 2", 100);
+		ThreadSubName t3 = new ThreadSubName("Thread 3", 300);
 		t1.start();
 		t2.start();
 		t3.start();
