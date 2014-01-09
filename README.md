@@ -7,4 +7,5 @@ InterviewOfJava324
 
 2014-Jan-03 Ch10  10.2.1  繼承Thread實現多執行緒
 
-2014-Jan-06 Ch10  10.2.2  實作Runnable實現多執行緒
+2014-Jan-09 Ch10  10.4.2  多執行緒同步方法
+
